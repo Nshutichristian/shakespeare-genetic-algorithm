@@ -1,0 +1,32 @@
+.fitness-chart {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.fitness-chart h3 {
+  color: #555;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.chart-canvas {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 8px;
+  background: #1a1a2e;
+}
+
+@media (max-width: 768px) {
+  .fitness-chart {
+    padding: 15px;
+  }
+
+  .chart-canvas {
+    max-width: 100%;
+  }
+}
